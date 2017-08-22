@@ -16,7 +16,7 @@ export class WelcomeComponent implements OnInit {
   }
 
   goToCharacterPage() {
-    this.router.navigate(['character'])
+    this.router.navigate(['createprofile']);
   }
 
 }
