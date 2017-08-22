@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url('https://i.pinimg.com/736x/3f/f6/49/3ff6498f8a8124a39af35a34af45448a--western-saloon-western-theme.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .9;
+}
