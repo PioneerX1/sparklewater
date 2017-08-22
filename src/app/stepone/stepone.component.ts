@@ -27,18 +27,21 @@ export class SteponeComponent implements OnInit {
   //methods based on decisions
   optionOne() {
     this.points--;
+    this.deduct = true;
     this.nextStep();
   }
   optionTwo() {
+    this.deduct = false;
     this.nextStep();
   }
 
   //method(s) to navigate to next step
   nextStep() {
-    this.router.navigate([this.name, this.points, 'step2']);
+    this.router.navigate([this.name, this.points, this.deduct,'step2']);
   }
 
   name: string;
   points: number;
+  deduct: boolean;
 
 }

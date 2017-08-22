@@ -1,0 +1,11 @@
+<h3>{{name}}, you have {{points}} karma points left.</h3>
+<hr>
+
+<div *ngIf="deduct === 'true'">
+  <!-- <p>Option 1 selected</p> -->
+  <p>Uh oh, turns out this townsperson is the sheriff of Sparklewater, the town you just entered. For some reason he's even more curious about you now and has some suspicion. He arrests you and takes you over to the nearby jailhouse.</p>
+</div>
+<div *ngIf="deduct === 'false'">
+  <!-- <p>Option 2 selected</p> -->
+  <p>This person is actually the sheriff of the town of Sparklewater, and says you're not the only one who comes by to admire the beauty. Unfortunately, the town is on high alert due to a recent event. The sheriff apologizes, but says he has to detain all outsiders in their local jailhouse. He assures you that this is standard procedure and is confident everything will be sorted out.
+</div>

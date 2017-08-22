@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { CreateprofileComponent } from './createprofile/createprofile.component';
 import { SteponeComponent } from './stepone/stepone.component';
+import { SteptwoComponent } from './steptwo/steptwo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     CreateprofileComponent,
-    SteponeComponent
+    SteponeComponent,
+    SteptwoComponent
   ],
   imports: [
     BrowserModule,
