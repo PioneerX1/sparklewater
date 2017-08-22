@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>{{title}}</h1>
+    <h2><em>{{subtitle}}</em></h2>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="panel panel-default">
+      <p>This filler text is on app.component.html file.</p>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Welcome to Sparklewater: A Choose Your Own Adventure Game!';
+  title = 'Welcome to Sparklewater';
+  subtitle = 'A Choose Your Own Adventure Game!';
 }
