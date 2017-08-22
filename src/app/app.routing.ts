@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import {WelcomeComponent} from './welcome/welcome.component';
 import {CreateprofileComponent} from './createprofile/createprofile.component';
+import {LosegameComponent} from './losegame/losegame.component';
 import {SteponeComponent} from './stepone/stepone.component';
 import {SteptwoComponent} from './steptwo/steptwo.component';
 
@@ -14,6 +15,10 @@ const appRoutes: Routes = [
   {
     path: 'createprofile',
     component: CreateprofileComponent
+  },
+  {
+    path: 'losegame',
+    component: LosegameComponent
   },
   {
     path: ':name/:points/step1',

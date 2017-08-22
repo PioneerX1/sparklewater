@@ -9,6 +9,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { CreateprofileComponent } from './createprofile/createprofile.component';
 import { SteponeComponent } from './stepone/stepone.component';
 import { SteptwoComponent } from './steptwo/steptwo.component';
+import { LosegameComponent } from './losegame/losegame.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SteptwoComponent } from './steptwo/steptwo.component';
     WelcomeComponent,
     CreateprofileComponent,
     SteponeComponent,
-    SteptwoComponent
+    SteptwoComponent,
+    LosegameComponent
   ],
   imports: [
     BrowserModule,

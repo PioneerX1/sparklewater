@@ -26,10 +26,8 @@ export class SteptwoComponent implements OnInit {
 
   checkScore() {
     if (this.points === 0) {
-      alert('your dead!');
-    } else {
-
-    }
+      this.router.navigate(['losegame']);
+    } else { }
   }
 
   name: string;
